@@ -4,6 +4,6 @@ https://docs.google.com/presentation/d/1hDLHch89fK773U2LnVb846CoTScrNevmIy132K4r
 
 
 Awesome python libs
-https://github.com/vinta/awesome-python#deep-learning
+https://github.com/vinta/awesome-python
 
 
