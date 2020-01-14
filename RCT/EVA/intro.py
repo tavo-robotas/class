@@ -1,64 +1,98 @@
-import pyrealsense2 as rs
-import cv2 as cv
-import numpy as np
 from evasdk import Eva
-import json
+import logging
+import pdb
+import time
 
-xy  = (float, float)
-xyz = (float, float, float)
+XYPosition = (float, float)
+XYZPosition = (float, float, float)
 
-GUESS = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-HOME  = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-DEEO  = {'w': 0.0, 'x': 0.0, 'y': 0.0, 'z': 0.0}
+
+POSE_GUESS = [0.1, 0.2, 0.1, 0.2, 0.1, 0.1]
+POSE_HOME = [0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+DEFAULT_END_EFFECTOR_ORIENTATION = {'w': 0.0, 'x': 0.0, 'y': 0.0, 'z': 0.0}
+
 
 class EvaCamera:
-    def __init__(self, eva: Eva, crp: xyz, ctop: float):
-        self.__eva: eva
-        self.__eva_off_pos_x: crp[0]
-        self.__eva_off_pos_y: crp[1]
-        self.__eva_off_pos_z: crp[2] - ctop
+    """
+    EvaCamera is a wrapper around an Eva SDK object that can take an object
+    position relative to the machine vision camera and move Eva's end
+    effector to that object.
+    """
+    def __init__(self, eva: Eva, camera_relative_position: XYZPosition, camera_to_object_distance: float):
+        self.__eva = eva
+        self.__eva_offset_position_x = camera_relative_position[0]
+        self.__eva_offset_position_y = camera_relative_position[1]
+        self.__eva_offset_position_z = camera_relative_position[2] - camera_to_object_distance
 
-    def move_to_camera(self, cip: xy):
-        x, y = xy
-        print(f'item x: {x}, item y: {y}')
-        eva_relative_x = self.__eva_off_pos_x + x
-        eva_relative_y = self.__eva_off_pos_y + y
-        eva_relative_z = self.__eva_off_pos_z
 
-        item_pos = {'x': eva_relative_x, 'y': eva_relative_y, 'z': eva_relative_z}
+    def move_to_camera_item(self, camera_item_postion: XYPosition):
+        """
+        Move Eva's end effector to the item position. Using the offset between
+        where the camera is positioned, the distance between the camera and
+        item and the items's x,y position, we calculate the position of the
+        item relative to Eva. Using Inverse Kinamatics we then calculate a set
+        of joint angles to get to the item position and move there.
+        """
+        camera_item_x, camera_item_y = camera_item_postion
+        print(f'camera item x: {camera_item_x}, camera item y: {camera_item_y}')
 
-        print(f'move to item position {item_pos}')
+        eva_relative_x = self.__eva_offset_position_x + camera_item_x
+        eva_relative_y = self.__eva_offset_position_y + camera_item_y
+        eva_relative_z = self.__eva_offset_position_z
+        item_position = {'x': eva_relative_x, 'y': eva_relative_y, 'z': eva_relative_z}
 
+        print(f'moving to item position {item_position}')
         with self.__eva.lock():
-            pose = self.__eva.calc_inverse_kinematics(GUESS, item_pos, DEEO)
-            self.__eva.control_go_to(pose['ik'][joints])
+            to_item_joint_angles = self.__eva.calc_inverse_kinematics(POSE_GUESS, item_position, DEFAULT_END_EFFECTOR_ORIENTATION)
+            self.__eva.control_go_to(to_item_joint_angles['ik']['joints'])
 
-        print('eva in position')
+        print("in item position")
 
-    def go_home(self):
-        print(f'moving home to pose: {HOME}')
+
+    def in_position_action(self):
+        """
+        Perform some action, for example in a pick and place use case you may
+        activate a gripper. In this example we will just print out a message.
+        """
+        print("perform item action")
+
+
+    def move_home(self):
+        """
+        Move back to a starting position. In practice for pick and place
+        usecase you may want to place in a bin.
+        """
+        print("moving home")
         with self.__eva.lock():
-            self.__eva.control_go_to(HOME)
+            self.__eva.control_go_to(POSE_HOME)
 
-        print(f' in {HOME} position')
-
-
-    def read_from_camera() -> xy:
-        return (1.6, 1.1)
+        print("in home position")
 
 
-    if __name__ == "__main__":
-        host = input("eva ip: ")
-        token = input("token: ")
+def read_from_camera() -> XYPosition:
+    """
+    Your camera code here! in this simple example we assume the machine vision
+    camera outputs an x and y position of the object detected in the frame at a
+    known z offset.
+    """
+    return (2.6, 4.1)
 
-        eva = Eva(host, token)
-        crp  = (1.2, 2.3, 3.4)
-        ctop = 2.2
 
-        ec = EvaCamera(eva, crp, ctop)
+if __name__ == "__main__":
 
-        item_position = read_from_camera()
+    # initialize EvaCamera with a working Eva and the camera positional information
+    eva = Eva("172.16.16.2", "69f132e6-0aab-43ae-9c95-fedb90f356e3")
+    logging.basicConfig(level=logging.DEBUG)
+    camera_position = (10.2, 20.3, 5.4)
+    camera_to_item_distance = 0.2
+    ec = EvaCamera(eva, camera_position, camera_to_item_distance)
 
-        ec.move_to_camera(item_position)
-        ec.go_home()
+    # read from the camera to get an item's position
+    item_position = read_from_camera()
 
+    # move eva to the item position and do some action
+    ec.move_to_camera_item(item_position)
+    ec.in_position_action()
+
+    # move eva home
+    ec.move_home()

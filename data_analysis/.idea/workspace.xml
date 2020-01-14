@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7a1a4570-26f2-44cd-9f77-5d550a8caf83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Python/intermediate/Network/intro_IP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/intermediate/threading/subclass_threading.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/intermediate/threading/synchronization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Python/intermediate/threading/threading_module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RCT/EVA/a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RCT/EVA/adjusted_camera.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RCT/EVA/camera.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CV/opencv/tracking.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CV/opencv/tracking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__OOP.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__advanced_dictionaries.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__advanced_lists.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__advanced_numbers.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__advanced_objects_test.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__advanced_sets.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__advanced_strings.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__all_any.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__built_in_methods.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__comprehensions.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__content.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__debugger_pdb.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__decorators.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__decorators_homework.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__dictionaries.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__enumerate.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__errors_and_exceptions.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__files.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__filter.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__formatting.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__functions.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__generators_iterators.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__keyword_arguments.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__lambda.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__lists.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__loops.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__map.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__numbers.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__pyserial.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__range.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__reduce.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__scope.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__sets.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__statements.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__strings.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__tips.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__tuples.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__useful_operators.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__variables.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__while Loops.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/__zip_unzip.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RCT/EVA/intro.py" beforeDir="false" afterPath="$PROJECT_DIR$/../RCT/EVA/intro.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/plotting/color_palettes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="677">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <element signature="e#53#71#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/plotting/color_palettes.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Data Analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Data Analysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Data Analysis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Data Analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="plotting" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="color_palettes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Data Analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/plotting" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/plotting/color_palettes.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.color_palettes" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a1a4570-26f2-44cd-9f77-5d550a8caf83" name="Default Changelist" comment="" />
+      <created>1577193523921</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577193523921</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/plotting/color_palettes.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/plotting/color_palettes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="e#53#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

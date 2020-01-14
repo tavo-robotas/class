@@ -1,0 +1,58 @@
+# SETUP YAML file for Machine Vision Example - December 2019
+
+EVA:
+  comms:
+    host: '0.0.0.0'
+    token: 'abcd1234'
+  end_effector:
+    payload: 0.2        # payload [kg]
+    length: 0.2         # length of tool [m]
+    offset:           # ee offset in ee-frame  [m]
+      - 0
+      - 0
+      - 0
+  hover_height: 0.1     # elevation of idle z axis wrt to the object [m]
+  surface_height: 0     # elevation of the pickup surface wrt to the robot [m, signed]
+
+TCP:
+  server: '0.0.0.0'
+  port: 0
+
+objects:
+  names:              # object names
+    - 'I'
+  heights:            # object thickness [m]
+    I: 60.0
+  weights:            # object weight [k]
+    I: 0.02
+
+
+waypoints:
+  joints_cal_zero:     # joints @ (0,0) of calibration board [rad]
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  joints_guess:        # joints guess for pickup/hover position [rad]
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  joints_home:        # joints for home position [rad]
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+  joints_drop:        # joints for drop position [rad]
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0

@@ -1,0 +1,9 @@
+# exclude everything except directory foo/bar
+RCT/venv/*
+RCT/.idea/*
+CV/venv/*
+CV/.idea/*
+data_analysis/venv/*
+data_analysis/seaborn-*
+RCT/EVA/*
+

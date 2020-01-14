@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f2b56f45-24a7-47b8-b424-42e544c516ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Network/intro_IP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threading/subclass_threading.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threading/synchronization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threading/threading_module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RCT/EVA/a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RCT/EVA/adjusted_camera.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RCT/EVA/camera.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CV/opencv/tracking.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../CV/opencv/tracking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__OOP.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__advanced_dictionaries.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__advanced_lists.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__advanced_numbers.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__advanced_objects_test.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__advanced_sets.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__advanced_strings.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__all_any.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__built_in_methods.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__comprehensions.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__content.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__debugger_pdb.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__decorators.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__decorators_homework.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__dictionaries.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__enumerate.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__errors_and_exceptions.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__files.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__filter.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__formatting.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__functions.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__generators_iterators.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__keyword_arguments.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__lambda.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__lists.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__loops.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__map.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__numbers.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__pyserial.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__range.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__reduce.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__scope.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__sets.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__statements.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__strings.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__tips.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__tuples.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__useful_operators.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__variables.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__while Loops.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../__zip_unzip.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RCT/EVA/intro.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../RCT/EVA/intro.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Network/intro_IP.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/threading/sub_class_threading.py" />
+        <option value="$PROJECT_DIR$/threading/subclass_threading.py" />
+        <option value="$PROJECT_DIR$/threading/synchronization.py" />
+        <option value="$PROJECT_DIR$/Network/intro_IP.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.synchronization">
+    <configuration name="sub_class_threading" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="intermediate" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/threading" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\education\class\Python\intermediate\threading\threading_module.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="subclass_threading" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="intermediate" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/threading" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/threading/subclass_threading.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="synchronization" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="intermediate" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/threading" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/threading/synchronization.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.synchronization" />
+        <item itemvalue="Python.subclass_threading" />
+        <item itemvalue="Python.sub_class_threading" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2b56f45-24a7-47b8-b424-42e544c516ee" name="Default Changelist" comment="" />
+      <created>1577178355580</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577178355580</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24973656" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="2" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/threading.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="87" column="19" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threading/synchronization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threading/subclass_threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="815">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/threading/threading_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="20" column="19" lean-forward="true" selection-end-line="29" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Network/intro_IP.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
