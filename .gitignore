@@ -4,6 +4,8 @@ RCT/.idea/*
 CV/venv/*
 CV/.idea/*
 data_analysis/venv/*
+data_analysis/.idea/*
 data_analysis/seaborn-*
+Python/intermediate/venv/*
 RCT/EVA/*
 
