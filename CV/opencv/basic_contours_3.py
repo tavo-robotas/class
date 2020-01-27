@@ -11,12 +11,18 @@ specific = contours[0]
 moments = cv.moments(specific)
 # cv.drawContours(source, [specific], 0, (0, 255, 255), 3)
 
-area = moments['m00']
-perimeter = cv.arcLength(specific,True)
+perimeter = cv.arcLength(specific, True)
 
 rectangle = cv.minAreaRect(specific)
 box = cv.boxPoints(rectangle)
 box = np.int0(box)
+
+cX = int(moments["m10"] / moments["m00"])
+cY = int(moments["m01"] / moments["m00"])
+
+print(f' X {cX}')
+print(f' Y {cY}')
+
 cv.drawContours(source, [box], 0, (0, 0, 255), 2)
 
 # cv.rectangle(source, (x, y), (x+w, y+h), (255, 0, 255), 2)
