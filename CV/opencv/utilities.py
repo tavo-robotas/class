@@ -85,7 +85,7 @@ def read_tcp_ip(sock):
     '''
 
     if len(camera_string_raw) is not 0:
-        if camera_string_raw[0] == 'start' and camera_string_raw[-1] == 'end':
+        if camera_string_raw[0] == 's' and camera_string_raw[-1] == 'e':
             passed = True
             camera_string_raw = [_convert_to_float(fl) for fl in camera_string_raw]
             # passes = [camera_string_raw[6], camera_string_raw[12], camera_string_raw[18]]
@@ -113,12 +113,12 @@ def _extract_camera_serial(camera_string_raw):
     #   Pattern_4, X_4, Y_4, Theta_4, Match_percentage_4,
     #
     # ]
-    camera_string = ['', 0, 0, 0]
-
-    camera_string[0] = 'start'
+    camera_string = ['', 'name' 0, 0, 0]
+    camera_string[0] = 's'
     camera_string[1] = camera_string_raw[1]
     camera_string[2] = camera_string_raw[2]
     camera_string[3] = camera_string_raw[3]
+    camera_string[4] = camera_string_raw[4]
 
     return camera_string
 

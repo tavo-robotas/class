@@ -10,14 +10,12 @@ import struct
 import cv2
 import pdb
 
-
 print('Number of arguments:', len(sys.argv), 'arguments.')
 print('Argument List:', str(sys.argv))
 mc_ip_address = socket.gethostname()
 print(mc_ip_address)
 port = 1024
 chunk_size = 4096
-
 
 # rs.log_to_console(rs.log_severity.debug)
 
@@ -34,33 +32,52 @@ def getFrame(pipeline, processing):
         # represent the frame as a numpy array
         data = frame.as_frame().get_data()
         color_image = np.asanyarray(data)
+
         blurred = cv2.GaussianBlur(color_image, (13, 13), 0)
         hsv = cv2.cvtColor(blurred, cv2.COLOR_BGR2HSV)
-        lower_bound= np.array([30, 180, 50])
-        upper_bound= np.array([255, 255, 150])
-        mask = cv2.inRange(hsv, lower_bound, upper_bound)
+
+        l_h = 30
+        l_s = 180
+        l_v = 50
+        u_h = 255
+        u_s = 255
+        u_v = 150
+
+        l_bound = np.array([l_h, l_s, l_v])
+        u_bound = np.array([u_h, u_s, u_v])
+        low_thr = np.array(l_bound)
+        upp_thr = np.array(u_bound)
+
+        mask = cv2.inRange(hsv, low_thr, upp_thr)
         # cv erode documentation
         mask = cv2.erode(mask, None, iterations=2)
         # cv dilate documentation
         mask = cv2.dilate(mask, None, iterations=2)
 
-        result = cv2.bitwise_and(color_image, color_image, mask=mask)
-        outlines = cv2.findContours(
-            mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+        # result = cv2.bitwise_and(color_image, color_image, mask=mask)
+        outlines = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
         contours = imutils.grab_contours(outlines)
+        rectangle = cv2.minAreaRect(contours)
+
+        (x, y), (w, h), a = rectangle
+
         if len(contours) > 0:
+            raw = np.asanyarray('s', 'generic', x, y, a, 'e')
+            return raw
+
             # for contour in contours:
-                # (x, y, w, h) = cv2.boundingRect(contour)
+            # (x, y, w, h) = cv2.boundingRect(contour)
+            # # print(contours)
+            # c = max(contours, key=cv2.contourArea)
+            # ((x, y), radius) = cv2.minEnclosingCircle(c)
+            # M = cv2.moments(c)
+            # center = (round(float(M['m10'] / M['m00']), 2), round(float(M['m01'] / M['m00']), 2))
+            # if radius > 10:
+            #     raw = np.asanyarray(center)
+            #     return raw
 
-            # print(contours)
-            c = max(contours, key=cv2.contourArea)
-            ((x, y), radius) = cv2.minEnclosingCircle(c)
-            M = cv2.moments(c)
-            center = (round(float(M['m10'] / M['m00']), 2), round(float(M['m01'] / M['m00']), 2))
 
-            if radius > 10:
-                raw = np.asanyarray(center)
-                return raw
+
     else:
         return None
 

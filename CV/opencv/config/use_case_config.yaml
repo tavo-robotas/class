@@ -20,7 +20,7 @@ TCP:
 
 objects:
   names:              # object names
-    - 'I'
+    - 'generic'
   heights:            # object thickness [m]
     I: 60.0
   weights:            # object weight [k]

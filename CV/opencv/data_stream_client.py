@@ -33,9 +33,9 @@ if __name__ == "__main__":
         while True:
             passed, cam_string = read_tcp_ip(sock)
             # camera_string = ['name', x, y, θ]
-            if passed is True and len(cam_string) == 4 and cam_string[0] is 'start':
+            if passed is True and len(cam_string) == 4 and cam_string[0] is 's':
                 obj_name = cam_string[1]
-                obj_angle = cam_string[3]
+                obj_angle = cam_string[4]
                 evaVision = EvaVision(eva, cam_string, joints_cal_zero, obj_heights[obj_name], surf_height, ee_length)
                 xyz = evaVision.locate_object()  # object position in Eva's frame [m]
                 xyz_hover = xyz
