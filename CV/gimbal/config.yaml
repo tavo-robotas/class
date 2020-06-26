@@ -1,0 +1,21 @@
+settings:
+  bound:            115200
+  com:              'COM7'
+  crc:              '3334'
+  sleep_time:       [None, 0]
+  sleep:            False
+  axis_limit:       [None]
+  axis_lock:        [47, 48, 54, 55, 61, 62]
+  safe_limit:       [-15, 15, -25, 25, -100, 100]
+  speed_params:     [None]
+  speed_lock:       [49, 50, 56, 57, 63, 64]
+  safe_speed:       [60, 60, 60, 60, 100, 60]
+  DOF_interval:     [None]
+  sleep_multiplier: [None]
+  zero_point:       [None]
+  axis_pos:         [0]
+  param_list:       (axislimit, speedparam)
+  param_lock:
+  safe_mode_list:   (safe_limit, safe_speed)
+  paramlist: (axislimit, speedparam)
+  paramloc:  (axisloc, speedloc)

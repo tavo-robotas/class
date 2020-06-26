@@ -15,7 +15,7 @@ img_points = []  # 2d points in image plane.
 
 
 path = os.path.join(os.getcwd(), 'data/samples/')
-source = 0
+source = 1
 capture = cv.VideoCapture(source)
 count = 0
 limit = 40

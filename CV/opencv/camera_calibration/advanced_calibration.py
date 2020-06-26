@@ -28,6 +28,7 @@ def main():
     args = dict(args)
     args.setdefault('--debug', './output/')
     args.setdefault('--square_size', 2.3)
+
     args.setdefault('--threads', 4)
     if not img_mask:
         img_mask = 'data/test/edited/h??.jpg'  # default

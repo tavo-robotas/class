@@ -1,0 +1,9 @@
+INFO:root:Executed with args ('Merry', 20), and kwargs {}
+INFO:root:Executed with args ('Merry', 20), and kwargs {}
+INFO:root:Executed with args ('Danas', 20), and kwargs {}
+INFO:root:Executed with args ('Danas', 20), and kwargs {}
+INFO:root:Executed with args ('Danas', 20), and kwargs {}
+INFO:root:Executed with args ('Danas', 20), and kwargs {}
+INFO:root:Executed with args ('Danas', 20), and kwargs {}
+INFO:root:Executed with args ('Danas', 20), and kwargs {'delta': 1}
+INFO:root:Executed with args ('Danas', 20), and kwargs {'delta': 1}

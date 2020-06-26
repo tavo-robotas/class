@@ -7,7 +7,7 @@ the VideoCapture interface (see Chess class).
 'create_capture' is a convenience function for capture creation,
 falling back to procedural video in case of error.
 Usage:
-    video.py [--shotdir <shot path>] [source0] [source1] ...'
+    main.py [--shotdir <shot path>] [source0] [source1] ...'
     sourceN is an
      - integer number for camera capture
      - name of video file
