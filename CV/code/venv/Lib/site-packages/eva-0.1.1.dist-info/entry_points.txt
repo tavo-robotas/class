@@ -1,0 +1,15 @@
+[console_scripts]
+eva = eva.cli:eva
+
+[virtualenvwrapper.post_deactivate]
+configvars = virtualenvwrapper.configvars:post_deactivate
+
+[virtualenvwrapper.post_deactivate_source]
+configvars = virtualenvwrapper.configvars:post_deactivate_source
+
+[virtualenvwrapper.pre_activate]
+configvars = virtualenvwrapper.configvars:pre_activate
+
+[virtualenvwrapper.pre_activate_source]
+configvars = virtualenvwrapper.configvars:pre_activate_source
+
