@@ -6,11 +6,12 @@ import pyrealsense2 as rs
 import pickle
 import socket
 
+
 def call(x):
     pass
 
 
-cv2.namedWindow('sense', cv2.WINDOW_AUTOSIZE)
+cv2.namedWindow('sense')
 cv2.createTrackbar('LH', 'sense', 0, 255, call)
 cv2.createTrackbar('LS', 'sense', 0, 255, call)
 cv2.createTrackbar('LV', 'sense', 0, 255, call)
@@ -94,7 +95,7 @@ try:
 
             cv2.imshow('image', color_image)
             cv2.imshow('mask', mask)
-            cv2.imshow('rest', result)
+            cv2.imshow('sense', result)
 
             key = cv2.waitKey(1)
             if key == 27:
