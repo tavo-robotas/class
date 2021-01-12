@@ -3,6 +3,7 @@ RCT/venv/*
 RCT/.idea/*
 CV/venv/*
 CV/.idea/*
+CV/images/temp/*
 data_analysis/venv/*
 data_analysis/.idea/*
 data_analysis/seaborn-*
