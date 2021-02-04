@@ -19,7 +19,7 @@ Computer vision lectures:
 https://github.com/tavo-robotas/class/tree/master/CV
 
 Robotics Basics lectures:
-https://github.com/tavo.../class/tree/master/robotic_basics
+https://github.com/tavo-robotas/class/tree/master/robotic_basics
 
 Questions, complaints and advices goes to:
 hello@tavorobotas.lt
