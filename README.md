@@ -13,9 +13,10 @@ To follow the course smoothly you will need to install on your computer:
 Lesson content is updated twice a week (usually on Tuesdays and Fridays).
 
 Machine learning lectures:
+https://github.com/tavo-robotas/class/tree/master/machine_learning
 
 Computer vision lectures:
-https://github.com/tavo-robotas/class/tree/master/machine_learning
+https://github.com/tavo-robotas/class/tree/master/CV
 
 Robotics Basics lectures:
 https://github.com/tavo.../class/tree/master/robotic_basics
