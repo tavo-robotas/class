@@ -4,6 +4,7 @@
 
 We invite you to join tavorobotas lectures online on Fridays at 14:00 (GMT+2) on discrod server:
 https://discord.gg/eZeETFKQ4N
+
 To follow the course smoothly you will need to install on your computer:
 - git (https://git-scm.com/),
 - python (https://www.python.org/downloads/release/python-386/)
